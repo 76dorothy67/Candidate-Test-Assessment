@@ -43,7 +43,7 @@ The input to the validation pipeline is a JSON file containing structured extrac
 
 **source_website_text** — the full raw text content scraped from the fund’s official website, used as the reference for validation of extracted values.
 
-Each extracted field (like name, industry_focus, etc.) is itself an object containing:
+Each extracted field (like name, fund_main_location, etc.) is itself an object containing:
 
 **value** — the structured value inferred by the model.
 
